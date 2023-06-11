@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Akuma, Web Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/loader.css">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body class="loading-body">
+
+  <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path>
+    <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path>
+    <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+    <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path>
+    <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="assets/img/logo.png" alt="Global">
+      <p>Global</p>
+    </a>
+    <p class="device-notification--message">Pour une meilleure expérience, passer votre appareil en paysage. Vous ne serez pas déçu !</p>
+  </div>
+  
+  <div class="perspective effect-rotate-left">
+    <div class="container"><div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="/">
+              <img width="120" src="assets/img/logo.png" alt="Akuma">
+            </a>
+            <button type="button" class="header--cta cta">Un Projet ?</button>
+            <div class="header--nav-toggle">
+              <span></span>
+            </div>
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Intro</span></li>
+              <li><span>Mes Travaux</span></li>
+              <li><span>A Propos</span></li>
+              <li><span>Contactez-Moi</span></li>
+              <li><span>Un Projet ?</span></li>
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>Qu'est ce<br>qu'on fait<br>aujourd'hui ?</h1>
+                  <button type="button" class="cta">Allons-y
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                    <span class="btn-background"></span>
+                  </button>
+                  <a href="cedric_datcha_cv.pdf" target="_blank" download style="margin-left: 10px;">Mon CV
+                    <img src="assets/img/download.png">
+                    <span class="btn-background" style="background-color: gray;"></span>
+                  </a>
+                  <div class="scroll-container">
+                    <div class="icon-scroll"></div>
+                    <span>Navigate with scroll</span>
+                  </div>
+                  <img src="assets/img/intro-pic.png" alt="Bienvenue">
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="work">
+                <h2>Mes travaux</h2>
+                <h5>(Pour des raisons de confidentialité, certains projets ne peuvent figurer sur cette liste)</h5>
+                <div class="work--slider">
+                  <section class="cd-slider">
+                    <ul>
+                      <li data-color="#960018">
+                        <div data-href="https://otakudafrique.com/" class="content" style="background-image:url(assets/img/otaku_screen.png)">
+                          <blockquote>
+                            <p>Site e-commerce de vente d'articles Otaku, Geek et K-POP</p>
+                            <span>Otaku d'Afrique</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#00308F">
+                        <div data-href="https://ciphone.ci/" class="content" style="background-image:url(assets/img/ciphone_screen.png)">
+                          <blockquote>
+                            <p>Site e-commerce de vente d'appareils électroniques (Smartphones, Accessoires, TV...)</p>
+                            <span>Ciphone</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="rgb(191, 167, 26)">
+                        <div data-href="https://gilleschoula.com/" class="content" style="background-image:url(assets/img/choula_screen.png)">
+                          <blockquote>
+                            <p>Portfolio pour un expert en stratégie et en organisation</p>
+                            <span>Gilles Choula</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#6050DC">
+                        <div data-href="http://2apgs-it.com/" class="content" style="background-image:url(assets/img/2apgs_screen.png)">
+                          <blockquote>
+                            <p>Site vitrine pour une association de professionnelles du domaines IT</p>
+                            <span>2APGS-IT</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#008B97">
+                        <div data-href="http://growthmusicgroup.com/" class="content" style="background-image:url(assets/img/gmg_screen.png)">
+                          <blockquote>
+                            <p>Site vitrine pour un label de production d'artistes</p>
+                            <span>Growth Music Group</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#FFA400">
+                        <div data-href="https://growthcontinue.com/" class="content" style="background-image:url(assets/img/growth_screen.png)">
+                          <blockquote>
+                            <p>Application Web pour un cabinet de formations et de certifications professionnelles</p>
+                            <span>Growth Music Group</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#544A50">
+                        <div data-href="https://mon-tchat-voyance.fr/" class="content" style="background-image:url(assets/img/mtv_screen.png)">
+                          <blockquote>
+                            <p>Application web de consultation de voyants et médiums en ligne</p>
+                            <span>MonTchatVoyance</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#48A43F">
+                        <div data-href="https://abexpress.live/" class="content" style="background-image:url(assets/img/ab_screen.png)">
+                          <blockquote>
+                            <p>Application web de commande de plats de restaurants basés au Congo Brazzaville </p>
+                            <span>AB Express</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                      <li data-color="#c8437e">
+                        <div data-href="https://kabaashop.com/" class="content" style="background-image:url(assets/img/kabaa_screen.png)">
+                          <blockquote>
+                            <p>Site ecommerce de ventes d'article basés au Sénégal </p>
+                            <span>Kabaashop</span>
+                          </blockquote>
+                        </div>
+                      </li>
+                    </ul>
+                    <nav>
+                      <div><a class="prev" href="#"></a></div>
+                      <div><a class="next" href="#"></a></div>
+                    </nav>
+                  </section>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="about">
+                <div class="about--banner">
+                  <h2>Être dev,<br>Aider les gens,<br>Vivre sa passion</h2>
+                  <img src="assets/img/about-visual.png" alt="About Us">
+                </div>
+                <div class="about--options">
+                  <a href="#about-schoolroad">
+                    <h3>Parcours Scolaire</h3>
+                  </a>
+                  <a href="#about-workroad">
+                    <h3>Expériences Professionnelles</h3>
+                  </a>
+                  <a href="#about-awards">
+                    <h3>Récompenses</h3>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="contact">
+                <div class="contact--lockup">
+                  <div class="modal">
+                    <div class="modal--information">
+                      <p>Comment me contacter ?</p>
+                      <a href="mailto:melcedricdatcha@gmail.com">melcedricdatcha@gmail.com</a>
+                      <a href="tel:+2250153981497">+225 0153981497</a>
+                    </div>
+                    <ul class="modal--options">
+                      <li><a target="_blank" class="linkedin-link" href="https://www.linkedin.com/in/mel-cedric-datcha-898909210">LinkedIn</a></li>
+                      <li><a target="_blank" class="github-link" href="https://github.com/Melo-dev16">Github</a></li>
+                      <li><a target="_blank" class="whatsapp-link" href="https://wa.me/2250153981497">Whatsapp</a></li>
+                      <li><a target="_blank" class="facebook-link" href="https://web.facebook.com/Melcedric1612">Facebook</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="hire">
+                <h2>Discutons un peu de votre projet !</h2>
+                <form class="work-request">
+                  <div class="work-request--information">
+                    <div class="information-half">
+                      <input id="name" type="text" spellcheck="false" autocomplete="off">
+                      <label for="name">Nom & Prénoms</label>
+                    </div>
+                    <div class="information-half">
+                      <input id="email" type="email" spellcheck="false" autocomplete="off">
+                      <label for="email">Adresse Email</label>
+                    </div>
+                    <div class="information-full">
+                      <input id="contact" type="text" spellcheck="false" autocomplete="off">
+                      <label for="contact">Contact</label>
+                    </div>
+                    <div class="information-full">
+                      <textarea id="description" placeholder="Description brève du projet"></textarea>
+                    </div>
+                  </div>
+                  <input type="submit" value="Envoyer">
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">Intro</li>
+      <li>Mes Travaux</li>
+      <li>A Propos</li>
+      <li>Contactez-Moi</li>
+      <li>Un Projet ?</li>
+    </ul>
+  </div>
+
+  <div class="details-modal-overlay"></div>
+                <div id="about-schoolroad" class="details-container">
+                  <div class="details-modal">
+                    <div class="details-modal-close">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976311 12.6834 -0.0976311 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L5.58579 7L0.292893 12.2929C-0.0976311 12.6834 -0.0976311 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L7 8.41421L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L8.41421 7L13.7071 1.70711Z" fill="black" />
+                      </svg>
+                    </div>
+                    <div class="details-modal-title">
+                      <h1>Parcours Scolaire</h1>
+                    </div>
+                    <div class="details-modal-content">
+                      <h2>2020-2023: Université Polytechnique de Bingerville</h2>
+                      <p>
+                        Licence Professionnelle en <strong>Méthodes Informatiques Appliquées à la Gestion des Entreprises (MIAGE)</strong>
+                      </p>
+                      <h2>2019: Groupe Scolaire Jules Ferry</h2>
+                      <p>
+                        Baccalauréat Série D avec <strong>Mention Assez Bien</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="about-workroad" class="details-container">
+                  <div class="details-modal">
+                    <div class="details-modal-close">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976311 12.6834 -0.0976311 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L5.58579 7L0.292893 12.2929C-0.0976311 12.6834 -0.0976311 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L7 8.41421L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L8.41421 7L13.7071 1.70711Z" fill="black" />
+                      </svg>
+                    </div>
+                    <div class="details-modal-title">
+                      <h1>Expériences Professionnelles</h1>
+                    </div>
+                    <div class="details-modal-content">
+                      <h2>Juillet 2022 - Décembre 2022: EVEN MEDIA INTERACTIVE</h2>
+                      <p>
+                        Développeur Web Fullstack
+                      </p>
+                      <h2>Septembre 2022 - *: GOMYCODE</h2>
+                      <p>
+                        Part Time Instructor: Intro To Web Development
+                      </p>
+                      <h2>Novembre 2021 - Juin 2022: GROWTH CONTINUE CONSULTING</h2>
+                      <p>
+                        Développeur Web
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="about-awards" class="details-container">
+                  <div class="details-modal">
+                    <div class="details-modal-close">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976311 12.6834 -0.0976311 12.2929 0.292893L7 5.58579L1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L5.58579 7L0.292893 12.2929C-0.0976311 12.6834 -0.0976311 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L7 8.41421L12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L8.41421 7L13.7071 1.70711Z" fill="black" />
+                      </svg>
+                    </div>
+                    <div class="details-modal-title">
+                      <h1>Récompenses</h1>
+                    </div>
+                    <div class="details-modal-content">
+                      <h2>2022: Université Polytechnique de Bingerville</h2>
+                      <p>
+                        3e place du Concours Génie UPB 2022 organisé par l'Université Polytechnique de Bingerville.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/vendor/hammer-2.0.8.js"></script>
+<script src="assets/js/functions.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+
+    setTimeout(() => {
+      document.getElementsByTagName('body')[0].classList.add('loading-fadeout')
+
+      setTimeout(() => {
+        document.getElementsByTagName('body')[0].classList.remove('loading-fadeout')
+        document.getElementsByTagName('body')[0].classList.remove('loading-body')
+      }, 900)
+    }, 2500)
+
+    let workItems = document.querySelectorAll('.cd-slider .content')
+    let modalCloses = document.querySelectorAll('.details-modal-close svg')
+    let aboutOptions = document.querySelectorAll('.about--options a')
+
+    for(let i = 0; i < workItems.length; i++){
+      workItems[i].addEventListener('click', function(e){
+        let href = e.currentTarget.getAttribute('data-href')
+
+        window.open(href, '_blank')
+      })
+    }
+
+    for(let i = 0; i < modalCloses.length; i++){
+      modalCloses[i].addEventListener('click', function(e){
+        let modal = e.currentTarget.parentElement.parentElement.parentElement
+        modal.classList.add('fade-out-modal')
+        
+        setTimeout(()=> {
+          modal.firstElementChild.classList.remove('fade-out-modal')
+          modal.classList.remove('details-opened')
+          document.querySelector('body').classList.remove('details-opened')
+        }, 400)
+      })
+    }
+
+    for(let i = 0; i < aboutOptions.length; i++){
+      aboutOptions[i].addEventListener('click', function(e){
+        e.preventDefault()
+        let modalId = e.currentTarget.getAttribute('href')
+
+        if(document.querySelector(modalId)){
+          document.querySelector(modalId).classList.add('details-opened')
+          document.querySelector('body').classList.add('details-opened')
+        }
+      })
+    }
+  });
+
+  (function() {
+  
+    var autoUpdate = false,
+        timeTrans = 4000;
+    
+    var cdSlider = document.querySelector('.cd-slider'),
+      item = cdSlider.querySelectorAll("li"),
+      nav = cdSlider.querySelector("nav");
+  
+    item[0].className = "current_slide";
+  
+    for (var i = 0, len = item.length; i < len; i++) {
+      var color = item[i].getAttribute("data-color");
+      
+      item[i].firstElementChild.firstElementChild.style.backgroundColor=color;
+    }
+  
+    // Detect IE
+    // hide ripple effect on IE9
+    var ua = window.navigator.userAgent;
+      var msie = ua.indexOf("MSIE");
+      if ( msie > 0 ) {
+        var version = parseInt(ua.substring(msie+ 5, ua.indexOf(".", msie)));
+        if (version === 9) { cdSlider.className = "cd-slider ie9";}
+    }
+  
+    if (item.length <= 1) {
+      nav.style.display = "none";
+    }
+  
+    function prevSlide() {
+      var currentSlide = cdSlider.querySelector("li.current_slide"),
+        prevElement = currentSlide.previousElementSibling,
+        prevSlide = ( prevElement !== null) ? prevElement : item[item.length-1],
+        prevColor = prevSlide.getAttribute("data-color"),
+        el = document.createElement('span');
+  
+      currentSlide.className = "";
+      prevSlide.className = "current_slide";
+  
+      nav.children[0].appendChild(el);
+  
+      var size = ( cdSlider.clientWidth >= cdSlider.clientHeight ) ? cdSlider.clientWidth*2 : cdSlider.clientHeight*2,
+          ripple = nav.children[0].querySelector("span");
+  
+      ripple.style.height = size + 'px';
+      ripple.style.width = size + 'px';
+      ripple.style.backgroundColor = prevColor;
+  
+      ripple.addEventListener("webkitTransitionEnd", function() {
+        if (this.parentNode) {
+          this.parentNode.removeChild(this);
+        }
+      });
+  
+      ripple.addEventListener("transitionend", function() {
+        if (this.parentNode) {
+          this.parentNode.removeChild(this);
+        }
+      });
+  
+    }
+  
+    function nextSlide() {
+      var currentSlide = cdSlider.querySelector("li.current_slide"),
+        nextElement = currentSlide.nextElementSibling,
+        nextSlide = ( nextElement !== null ) ? nextElement : item[0],
+        nextColor = nextSlide.getAttribute("data-color"),
+        el = document.createElement('span');
+  
+      currentSlide.className = "";
+      nextSlide.className = "current_slide";
+  
+      nav.children[1].appendChild(el);
+  
+      var size = ( cdSlider.clientWidth >= cdSlider.clientHeight ) ? cdSlider.clientWidth*2 : cdSlider.clientHeight*2,
+          ripple = nav.children[1].querySelector("span");
+  
+      ripple.style.height = size + 'px';
+      ripple.style.width = size + 'px';
+      ripple.style.backgroundColor = nextColor;
+  
+      ripple.addEventListener("webkitTransitionEnd", function() {
+        if (this.parentNode) {
+          this.parentNode.removeChild(this);
+        }
+      });
+  
+      ripple.addEventListener("transitionend", function() {
+        if (this.parentNode) {
+          this.parentNode.removeChild(this);
+        }
+      });
+  
+    }
+  
+    updateNavColor();
+  
+    function updateNavColor () {
+      var currentSlide = cdSlider.querySelector("li.current_slide");
+  
+      var nextColor = ( currentSlide.nextElementSibling !== null ) ? currentSlide.nextElementSibling.getAttribute("data-color") : item[0].getAttribute("data-color");
+      var	prevColor = ( currentSlide.previousElementSibling !== null ) ? currentSlide.previousElementSibling.getAttribute("data-color") : item[item.length-1].getAttribute("data-color");
+  
+      if (item.length > 2) {
+        nav.querySelector(".prev").style.backgroundColor = prevColor;
+        nav.querySelector(".next").style.backgroundColor = nextColor;
+      }
+    }
+  
+    nav.querySelector(".next").addEventListener('click', function(event) {
+      event.preventDefault();
+      nextSlide();
+      updateNavColor();
+    });
+  
+    nav.querySelector(".prev").addEventListener("click", function(event) {
+      event.preventDefault();
+      prevSlide();
+      updateNavColor();
+    });
+    
+    //autoUpdate
+    setInterval(function() {
+      if (autoUpdate) {
+        nextSlide();
+        updateNavColor();
+      };
+    },timeTrans);
+  
+  })();
+</script>
+</body>
+</html>
