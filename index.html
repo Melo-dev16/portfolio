@@ -317,14 +317,12 @@
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
 
-    setTimeout(() => {
       document.getElementsByTagName('body')[0].classList.add('loading-fadeout')
 
       setTimeout(() => {
         document.getElementsByTagName('body')[0].classList.remove('loading-fadeout')
         document.getElementsByTagName('body')[0].classList.remove('loading-body')
       }, 900)
-    }, 2500)
 
     let workItems = document.querySelectorAll('.cd-slider .content')
     let modalCloses = document.querySelectorAll('.details-modal-close svg')
@@ -366,8 +364,8 @@
 
   (function() {
   
-    var autoUpdate = false,
-        timeTrans = 4000;
+    var autoUpdate = true,
+        timeTrans = 200;
     
     var cdSlider = document.querySelector('.cd-slider'),
       item = cdSlider.querySelectorAll("li"),
