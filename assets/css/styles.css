@@ -189,14 +189,18 @@
   padding: 10px;
   text-align: center;
   position: relative;
+  max-height: 60%;
+  overflow: hidden;
 }
 .cd-slider .content blockquote p {
 	font-size: 28px;
 	margin-bottom: 2rem;
+  word-break: break-word;
 }
 .cd-slider .content blockquote span {
 	font-size: 35px;
   text-transform: uppercase;
+  word-break: break-word;
 }
 /* current slide
 ---------------------------------*/
@@ -434,5 +438,32 @@ body.details-opened .details-modal-overlay {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro--banner::before, .intro--banner::after {
+    display: none;
+  }
+  
+  .cd-slider .content blockquote p {
+    font-size: 18px;
+  }
+
+  .cd-slider .content blockquote span {
+    font-size: 25px;
+  }
+
+  .about--options > a {
+    margin: 15px auto;
+    width: 60%;
+  }
+
+  .work-request--information .information-half {
+    font-size: 20px;
+  }
+
+  .outer-nav {
+    left: 50%;
   }
 }
