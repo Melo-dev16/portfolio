@@ -472,4 +472,7 @@ body.details-opened .details-modal-overlay {
     line-height: 1.5;
     word-break: break-word;
   }
+  .details-modal {
+    width: 90%;
+  }
 }
