@@ -466,4 +466,10 @@ body.details-opened .details-modal-overlay {
   .outer-nav {
     left: 50%;
   }
+
+  .about--banner h2, .intro--banner h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    word-break: break-word;
+  }
 }
