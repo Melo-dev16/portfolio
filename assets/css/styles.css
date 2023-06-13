@@ -447,11 +447,11 @@ body.details-opened .details-modal-overlay {
   }
   
   .cd-slider .content blockquote p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .cd-slider .content blockquote span {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .about--options > a {
@@ -479,6 +479,7 @@ body.details-opened .details-modal-overlay {
 
 #formSubmit {
   transition: 1.5s;
+  margin-top: 15px;
 }
 
 #formSubmit img {
