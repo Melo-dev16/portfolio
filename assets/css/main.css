@@ -1332,12 +1332,18 @@ body {
 }
 
 .contact--lockup .modal--options a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 8px 0;
     text-decoration: none;
     color: #fff;
     font-weight: 700
+}
+.contact--lockup .modal--options a img {
+    width: 18px;
+    margin-right: 5px;
 }
 
 .hire {

@@ -475,6 +475,22 @@ body.details-opened .details-modal-overlay {
   .details-modal {
     width: 90%;
   }
+
+  .outer-nav > li {
+    font-size: 25px;
+  }
+
+  .outer-nav > li::before {
+    height: 8px;
+  }
+
+  .information-full textarea {
+    font-size: 25px;
+  }
+
+  .work-request--information .information-full {
+    font-size: 20px;
+  }
 }
 
 #formSubmit {
