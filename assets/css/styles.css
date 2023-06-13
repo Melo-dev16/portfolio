@@ -476,3 +476,28 @@ body.details-opened .details-modal-overlay {
     width: 90%;
   }
 }
+
+#formSubmit {
+  transition: 1.5s;
+}
+
+#formSubmit img {
+  display: none;
+  width: 60px;
+}
+
+#formSubmit span {
+  display: block;
+}
+
+#formSubmit:disabled {
+  background-color: white;
+}
+
+#formSubmit:disabled img {
+  display: block;
+}
+
+#formSubmit:disabled span {
+  display: none;
+}
